@@ -21,7 +21,25 @@ div {
 		height:131px;
 	}
 }*/
-
+.img-prop {
+	margin-left: -50px;
+	float: left;
+}
+.button-div {
+	color: rgba(255,255,255,0.87);
+ 	background-color: #1955AD;
+ 	height: 30px;
+  	padding: 5px !important;
+  	border-radius: 5px;
+}
+.reclaim-div {
+	color: rgba(255,255,255,0.87);
+ 	background-color: #63AE26;
+ 	height: 55px;
+  	padding: 5px !important;
+  	border-radius: 5px;
+  	margin-bottom: 10px;
+}
 #girl2, #girl1, #girl9, #girl6 {
 	height: 100px !important;
 	filter: grayscale(100%);
@@ -45,9 +63,6 @@ div {
 	height: 75px !important;
 }
 
-#logo p {
-	line-height: 75px;
-}
 
 @font-face {
     font-family: 'custom';
@@ -56,3 +71,6 @@ div {
 p {
 	font-family: custom;
 }
+
+
+#slideshow .slide{position:absolute; height:320px; width:320px;}
